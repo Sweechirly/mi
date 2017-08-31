@@ -1,0 +1,224 @@
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+img {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 2.01389rem;
+}
+
+header .index-header {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 0.20833rem 0;
+  background-color: #fafafa;
+}
+
+header .index-header .logo {
+  float: left;
+  width: 1.38889rem;
+  padding: 0.13889rem 0.34722rem;
+  box-sizing: border-box;
+}
+
+header .index-header .logo img {
+  width: 0.69444rem;
+  height: auto;
+}
+
+header .index-header .search_bar {
+  overflow: hidden;
+  line-height: 0.47222rem;
+  background: url("../images/index/search_df67e2f.png") no-repeat;
+  background-size: 101% 101%;
+  width: 7.11111rem;
+  height: 0.73611rem;
+  border-radius: 0.06944rem;
+  border: 1px solid #e5e5e5;
+}
+
+header .index-header .search_bar a {
+  display: block;
+  padding: 0.13889rem 0.83333rem;
+}
+
+header .index-header .search_bar .text {
+  font-size: 0.36111rem;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+header .index-header .login {
+  float: right;
+  white-space: nowrap;
+  box-sizing: border-box;
+  text-align: center;
+  vertical-align: center;
+  padding: 0.13889rem 0;
+}
+
+header .index-header .login .text {
+  font-size: 0.38889rem;
+  text-align: center;
+  color: #969696;
+  margin: 0 0.30556rem;
+}
+
+header .sub-header {
+  width: 100%;
+  height: 0.83333rem;
+  overflow: hidden;
+  background-color: #fafafa;
+}
+
+header .sub-header .swipe-tab {
+  float: left;
+  margin: 0 0.38889rem;
+  height: 0.77778rem;
+  font-size: 0.36111rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #747474;
+  cursor: pointer;
+  text-align: center;
+  border-bottom: 2px solid rgba(237, 91, 0, 0);
+}
+
+header .sub-header .on {
+  border-bottom-color: #ed5b00;
+  color: #ed5b00;
+}
+
+article {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+article .swiper-container {
+  width: 100%;
+  height: 5rem;
+}
+
+article .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: auto;
+}
+
+article .swiper-container .swiper-pagination {
+  text-align: right;
+}
+
+article .swiper-container .swiper-pagination-bullets {
+  left: -0.55556rem;
+}
+
+article .swiper-container .swiper-pagination-bullets .swiper-pagination-bullet {
+  width: 0.13889rem;
+  height: 0.13889rem;
+  margin: 0 0.13889rem;
+  background: #fff;
+  opacity: .6;
+  box-shadow: 0 0 1px #ccc;
+}
+
+article section {
+  margin-top: -1px;
+}
+
+article section .menu {
+  width: 100%;
+  height: 2.11111rem;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 0.03472rem solid #cecece;
+}
+
+article section .menu .items img {
+  width: 100%;
+}
+
+article section .list_broadcast .box {
+  width: 100%;
+  height: 1.11111rem;
+  font-size: 0.33333rem;
+  color: #000;
+}
+
+article section .list_broadcast .box .img {
+  display: inline-block;
+  width: 2.08333rem;
+}
+
+article section .list_broadcast .box .img img {
+  width: 2.08333rem;
+}
+
+article section .list_broadcast .box .sc_title {
+  display: inline-block;
+  font-size: 0.33333rem;
+  line-height: 0.33333rem;
+  transition: opacity .3s;
+  padding-left: 0.27778rem;
+  border-left: 1px solid #b2b2b2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0.31944rem 0 0.31944rem 0.27778rem;
+}
+
+article section .fmenu {
+  height: 7.05556rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+article section .fmenu a:nth-child(1) {
+  width: 4.97222rem;
+  height: 7.05556rem;
+}
+
+article section .fmenu a:nth-child(1) img {
+  width: 100%;
+}
+
+article section .fmenu .fbox {
+  width: 4.97222rem;
+  height: 7.05556rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article section .fmenu .fbox a:nth-child(1),
+article section .fmenu .fbox a:nth-child(2) {
+  width: 4.97222rem;
+  height: 3.5rem;
+}
+
+article section .fmenu .fbox a:nth-child(1) img,
+article section .fmenu .fbox a:nth-child(2) img {
+  width: 100%;
+  height: 100%;
+}
+
+article section .spic {
+  width: 100%;
+  height: 3.88889rem;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "mi",
+  "version": "1.0.0",
+  "description": "仿小米移动端",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sweechirly/mi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sweechirly/mi/issues"
+  },
+  "homepage": "https://github.com/Sweechirly/mi#readme"
+}
