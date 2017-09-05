@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei", "iconfont" !important;
+  list-style: none;
+  text-decoration: none;
+}
+
+i {
+  font-style: normal;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #eee;
+}
+
+.wrapper {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.wrapper .main nav {
+  padding: 1.11111rem 0 0.61111rem;
+  text-align: center;
+}
+
+.wrapper .main nav .logo {
+  background-image: url("../images/login/milogo.png");
+  width: 1.33333rem;
+  height: 1.33333rem;
+  margin: 0 auto 0.61111rem;
+  display: block;
+}
+
+.wrapper .main nav p {
+  font-size: 0.55556rem;
+  color: #424242;
+}
+
+.wrapper .main .login #username {
+  margin-bottom: 1px;
+  border-radius: 16px 16px 0 0;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  padding: 0 10px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(11, 3, 5, 0.1);
+}
+
+.wrapper .main .login #username input {
+  width: 100%;
+  padding: 0.33333rem 0;
+  display: block;
+  font-size: 0.44444rem;
+  -webkit-box-flex: 1;
+  outline: none;
+  background: 0;
+  border: 0 none;
+}
+
+.wrapper .main .login #password {
+  border-radius: 0 0 16px 16px;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  padding: 0 10px;
+  background-color: #fff;
+  padding: 0 10px;
+  background-color: #fff;
+}
+
+.wrapper .main .login #password input {
+  width: 100%;
+  padding: 0.33333rem 0;
+  line-height: normal;
+  display: block;
+  font-size: 0.44444rem;
+  -webkit-box-flex: 1;
+  outline: none;
+  background: 0;
+  border: 0 none;
+}
+
+.wrapper .main .login #password i {
+  font-size: 0.83333rem;
+}
+
+.wrapper .main .btn {
+  padding-top: 0.66667rem;
+  padding-bottom: 0.41667rem;
+}
+
+.wrapper .main .btn input {
+  background-color: #33b4ff;
+  width: 100%;
+  padding: 0.27778rem 0;
+  display: block;
+  margin-bottom: 0.44444rem;
+  text-align: center;
+  font-size: 0.44444rem;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0.55556rem;
+  border: 1px solid rgba(186, 186, 186, 0.3);
+  overflow: hidden;
+}
+
+.wrapper .main .btn a {
+  width: 100%;
+  padding: 0.27778rem 0;
+  display: block;
+  margin-bottom: 0.44444rem;
+  text-align: center;
+  font-size: 0.44444rem;
+  color: #fff;
+  border-radius: 0.55556rem;
+  border: 1px solid rgba(186, 186, 186, 0.3);
+  overflow: hidden;
+  background: #fff;
+  margin-top: 0.27778rem;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+.wrapper .main .other {
+  margin-top: 0.27778rem;
+  position: relative;
+  border-top: 1px dashed #bdbdbd;
+  padding-top: 0.27778rem;
+}
+
+.wrapper .main .other p {
+  position: absolute;
+  font-size: 0.38889rem;
+  width: 26%;
+  color: #b0b0b0;
+  top: -0.27778rem;
+  left: 37%;
+}
+
+.wrapper .main .other .oth_btn {
+  padding-top: 0.55556rem;
+  text-align: center;
+}
+
+.wrapper .main .other .oth_btn a {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0 0.27778rem;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.wrapper .main .other .oth_btn a i {
+  display: block;
+  width: 1.08333rem;
+  height: 0.80556rem;
+  margin: 0.22222rem auto 0;
+  background: url("../images/login/iconstype_wap.png");
+  background-size: auto 0.80556rem;
+}
+
+.wrapper .main .other .oth_btn .qq {
+  background-color: #0288d1;
+}
+
+.wrapper .main .other .oth_btn .qq i {
+  background-position: 0 0;
+}
+
+.wrapper .main .other .oth_btn .weibo {
+  background-color: #d32f2f;
+}
+
+.wrapper .main .other .oth_btn .weibo i {
+  background-position: -1.08333rem 0;
+}
+
+.wrapper .main .other .oth_btn .zhifubao {
+  background-color: #0ae;
+}
+
+.wrapper .main .other .oth_btn .zhifubao i {
+  background-position: -2.06944rem 0;
+}
+
+.wrapper .main .link {
+  padding: 1.11111rem 0 1.25rem;
+  text-align: center;
+  color: #e0e0e0;
+}
+
+.wrapper .main .link a {
+  padding: 0 0.25rem;
+  font-size: 0.38889rem;
+  color: #757575;
+}
+
+.wrapper footer {
+  color: #757575;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 0.38889rem;
+  margin-top: -0.25rem;
+  height: 2.5rem;
+}
+
+.wrapper footer ul {
+  text-align: center;
+}
+
+.wrapper footer ul li {
+  display: inline-block;
+}
+
+.wrapper footer ul li a {
+  display: inline-block;
+  padding: 0 0.27778rem;
+  color: #333;
+}
+
+.wrapper footer .nf-intro {
+  padding: 0.27778rem 0;
+}
+
+.wrapper footer .nf-intro a {
+  color: #757575;
+}
+
+.wrapper footer .nf-intro a img {
+  width: 0.55556rem;
+  height: 0.55556rem;
+}

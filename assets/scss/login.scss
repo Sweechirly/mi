@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei", "iconfont" !important;
+    list-style: none;
+    text-decoration: none;
+}
+
+i {
+    font-style: normal;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #eee;
+}
+
+@function rem($px) {
+    //$px为需要转换的大小
+    @return $px / 144px * 1rem; // 108为移动端的分辨率
+}
+
+.wrapper {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    .main {
+        nav {
+            padding: rem(160px) 0 rem(88px);
+            text-align: center;
+            .logo {
+                background-image: url("../images/login/milogo.png");
+                width: rem(192px);
+                height: rem(192px);
+                margin: 0 auto rem(88px);
+                display: block;
+            }
+            p {
+                font-size: rem(80px);
+                color: #424242;
+            }
+        }
+        .login {
+            #username {
+                margin-bottom: 1px;
+                border-radius: 16px 16px 0 0;
+                display: -webkit-box;
+                -webkit-box-align: center;
+                padding: 0 10px;
+                background-color: #fff;
+                box-shadow: 0 1px 1px rgba(11, 3, 5, 0.1);
+                input {
+                    width: 100%;
+                    padding: rem(48px) 0;
+                    display: block;
+                    font-size: rem(64px);
+                    -webkit-box-flex: 1;
+                    outline: none;
+                    background: 0;
+                    border: 0 none;
+                }
+            }
+            #password {
+                border-radius: 0 0 16px 16px;
+                display: -webkit-box;
+                -webkit-box-align: center;
+                padding: 0 10px;
+                background-color: #fff;
+                padding: 0 10px;
+                background-color: #fff;
+                input {
+                    width: 100%;
+                    padding: rem(48px) 0;
+                    line-height: normal;
+                    display: block;
+                    font-size: rem(64px);
+                    -webkit-box-flex: 1;
+                    outline: none;
+                    background: 0;
+                    border: 0 none;
+                }
+                i {
+                    font-size: rem(120px);
+                }
+            }
+        }
+        .btn {
+            padding-top: rem(96px);
+            padding-bottom: rem(60px);
+            input {
+                background-color: #33b4ff;
+                width: 100%;
+                padding: rem(40px) 0;
+                display: block;
+                margin-bottom: rem(64px);
+                text-align: center;
+                font-size: rem(64px);
+                color: #fff;
+                cursor: pointer;
+                border-radius: rem(80px);
+                border: 1px solid rgba(186, 186, 186, 0.3);
+                overflow: hidden;
+            }
+            a {
+                width: 100%;
+                padding: rem(40px) 0;
+                display: block;
+                margin-bottom: rem(64px);
+                text-align: center;
+                font-size: rem(64px);
+                color: #fff;
+                border-radius: rem(80px);
+                border: 1px solid rgba(186, 186, 186, 0.3);
+                overflow: hidden;
+                background: #fff;
+                margin-top: rem(40px);
+                border: 1px solid #ddd;
+                color: #333;
+            }
+        }
+        .other {
+            margin-top: rem(40px);
+            position: relative;
+            border-top: 1px dashed #bdbdbd;
+            padding-top: rem(40px);
+            p {
+                position: absolute;
+                font-size: rem(56px);
+                width: 26%;
+                color: #b0b0b0;
+                top: rem(-40px);
+                left: 37%;
+            }
+            .oth_btn {
+                padding-top: rem(80px);
+                // display: flex;
+                text-align: center;
+                // justify-content: space-between;
+                a {
+                    width: rem(180px);
+                    height: rem(180px);
+                    margin: 0 rem(40px);
+                    display: inline-block;
+                    border-radius: 50%;
+                    i {
+                        display: block;
+                        width: rem(156px);
+                        height: rem(116px);
+                        margin: rem(32px) auto 0;
+                        background: url("../images/login/iconstype_wap.png");
+                        background-size: auto rem(116px);
+                    }
+                }
+                .qq {
+                    background-color: #0288d1;
+                    i {
+                        background-position: 0 0;
+                    }
+                }
+                .weibo {
+                    background-color: #d32f2f;
+                    i {
+                        background-position: rem(-156px) 0;
+                    }
+                }
+                .zhifubao {
+                    background-color: #0ae;
+                    i {
+                        background-position: rem(-298px) 0;
+                    }
+                }
+            }
+        }
+        .link {
+            padding: rem(160px) 0 rem(180px);
+            text-align: center;
+            color: #e0e0e0;
+            a {
+                padding: 0 rem(36px);
+                font-size: rem(56px);
+                color: #757575;
+            }
+        }
+    }
+    footer {
+        color: #757575;
+        line-height: 1.5;
+        text-align: center;
+        font-size: rem(56px);
+        margin-top: rem(-36px);
+        height: rem(360px);
+        ul {
+            text-align: center;
+            li {
+                display: inline-block;
+                a {
+                    display: inline-block;
+                    padding: 0 rem(40px);
+                    color: #333;
+                }
+            }
+        }
+        .nf-intro {
+            padding: rem(40px) 0;
+            a {
+                color: #757575;
+                img {
+                    width: rem(80px);
+                    height: rem(80px);
+                }
+            }
+        }
+    }
+}

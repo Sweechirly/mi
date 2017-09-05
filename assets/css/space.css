@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei", "iconfont" !important;
+  list-style: none;
+  text-decoration: none;
+}
+
+i {
+  font-style: normal;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  background: url("../images/space/header.png") center 0 #f37d0f;
+  background-size: contain;
+  padding: 0.44444rem 0;
+}
+
+.user .avatar {
+  float: left;
+  margin-left: 0.44444rem;
+  margin-right: 0.22222rem;
+}
+
+.user .avatar img {
+  width: 1.33333rem;
+}
+
+.user .name {
+  height: 1.33333rem;
+  line-height: 1.33333rem;
+  color: #fff;
+}
+
+.order {
+  background-color: #fff;
+}
+
+.order a {
+  display: block;
+  height: 1.11111rem;
+  line-height: 1.11111rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.order a .mine {
+  display: inline-block;
+  font-size: 0.38889rem;
+  padding: 0 0 0 0.44444rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.order a .all {
+  float: right;
+  font-size: 0.33333rem;
+  color: rgba(0, 0, 0, 0.54);
+  padding-right: 0.27778rem;
+}
+
+.nav {
+  background-color: #fff;
+}
+
+.nav ul {
+  padding: 0 1.11111rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav ul li a {
+  text-align: center;
+  padding: 0.55556rem 0;
+  position: relative;
+  display: block;
+  color: #333;
+}
+
+.nav ul li a .img {
+  width: 0.66667rem;
+  height: 0.66667rem;
+  margin: 0 auto 0.22222rem;
+}
+
+.items {
+  margin-top: 0.20833rem;
+}
+
+.items .item {
+  background-color: #fff;
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.items .item .img {
+  vertical-align: middle;
+  height: 1.5rem;
+  font-size: 0;
+  margin: 0 0.13889rem 0 0;
+}
+
+.items .item .img img {
+  width: 0.66667rem;
+  vertical-align: middle;
+  padding: 0 0.52778rem;
+}
+
+.items .item .img span {
+  display: inline-block;
+  font-size: 0.38889rem;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.items .item .img i {
+  height: 100%;
+  vertical-align: middle;
+  float: right;
+}
+
+.items .line {
+  width: 84%;
+  height: 0.04167rem;
+  float: right;
+  background-color: #ddd;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #FFF;
+  z-index: 5;
+  border-top: 1px solid #e0e0e0;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  list-style: none;
+  flex: 1;
+}
+
+footer ul li a {
+  display: block;
+  padding: 0.16667rem 0;
+}
+
+footer ul li .ispr {
+  width: 0.55556rem;
+  height: 0.55556rem;
+  background-image: url("../images/index/spr1_5b2e09c.png");
+  background-size: 0.55556rem 4.44444rem;
+  overflow: hidden;
+  margin: 0 auto 0.11111rem;
+}
+
+footer ul li .ih {
+  background-position-y: 3.88889rem;
+}
+
+footer ul li .ic {
+  background-position-y: -0.55556rem;
+}
+
+footer ul li .is {
+  background-position-y: -1.66667rem;
+}
+
+footer ul li .if {
+  background-position-y: -2.22222rem;
+}
+
+footer ul li p {
+  text-align: center;
+  font-size: 0.30556rem;
+  line-height: .8;
+  color: #999;
+}
+
+footer ul li .on p {
+  color: #FF5722;
+}

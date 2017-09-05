@@ -1,0 +1,54 @@
+@function rem($px) {
+    //$px为需要转换的大小
+    @return $px / 144px * 1rem; // 108为移动端的分辨率
+}
+
+#phone {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    border-radius: rem(64px) rem(64px) 0 0;
+    padding: 0 rem(40px);
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(11, 3, 5, 0.1);
+    border-bottom: 1px solid #ddd;
+    .country-list {
+        display: flex;
+        .select {
+            padding: rem(40px) rem(40px) rem(40px) 0;
+            color: #333;
+            margin-right: rem(40px);
+            overflow: hidden;
+            border-right: 1px solid #e0e0e0;
+        }
+        input {
+            width: 100%;
+            line-height: normal;
+            font-size: rem(64px);
+            border: none;
+            padding: rem(40px) 0;
+        }
+    }
+}
+
+#code {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    border-radius: 0 0 rem(64px) rem(64px);
+    padding: 0 rem(40px);
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(11, 3, 5, 0.1);
+    .item_code {
+        width: 100%;
+        line-height: normal;
+        font-size: rem(64px);
+        border: none;
+        padding: rem(40px) 0;
+    }
+    .select {
+        padding: rem(40px) 0 rem(40px) rem(40px);
+        color: #003ab5;
+        font-size: rem(56px);
+        overflow: hidden;
+        border-left: 1px solid #e0e0e0;
+    }
+}

@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei", "iconfont" !important;
+  list-style: none;
+  text-decoration: none;
+}
+
+i {
+  font-style: normal;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  height: 1.16667rem;
+  padding: 0 0.27778rem;
+  background: #f2f2f2;
+  border-bottom: 1px solid #eee;
+  z-index: 2;
+}
+
+header .left a {
+  height: 1.16667rem;
+  line-height: 1.16667rem;
+  display: block;
+  float: left;
+}
+
+header .left a img {
+  width: 0.61111rem;
+  height: 0.61111rem;
+  vertical-align: middle;
+}
+
+header .title {
+  line-height: 1.16667rem;
+  font-size: 0.41667rem;
+  color: #666;
+  text-align: center;
+}
+
+header .search {
+  float: right;
+}
+
+header .search .icon-sousuo {
+  line-height: 1.16667rem;
+  font-size: 0.69444rem;
+}
+
+section .list {
+  position: absolute;
+  top: 1.16667rem;
+  width: 2.11111rem;
+  z-index: 5;
+  border-right: 1px solid #efefef;
+}
+
+section .list ul {
+  z-index: 9;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: -0.55556rem;
+  padding-top: 0.27778rem;
+}
+
+section .list ul li {
+  font-size: 0.36111rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  text-align: center;
+}
+
+section .list ul .active {
+  color: #fb7d34;
+  font-size: 0.47222rem;
+}
+
+section .list-wrap {
+  margin-left: 2.11111rem;
+  padding: 0 0.44444rem;
+}
+
+section .list-wrap .title-img {
+  width: 6.94444rem;
+  height: 2.77778rem;
+}
+
+section .list-wrap .more {
+  height: 1.11111rem;
+}
+
+section .list-wrap .items .title {
+  position: relative;
+  background: #fff;
+  font-size: 0.41667rem;
+  text-align: center;
+  margin-top: 0.27778rem;
+  height: 1.77778rem;
+  line-height: 1.77778rem;
+  overflow: hidden;
+}
+
+section .list-wrap .items .title::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  width: 0.55556rem;
+  border-top: 1px solid #ddd;
+}
+
+section .list-wrap .items .title::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  width: 0.55556rem;
+  border-top: 1px solid #ddd;
+}
+
+section .list-wrap .items .box ul {
+  overflow: hidden;
+}
+
+section .list-wrap .items .box ul li {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  margin-top: 0.27778rem;
+  margin-bottom: 0.41667rem;
+}
+
+section .list-wrap .items .box ul li .img {
+  width: 1.38889rem;
+  height: 1.38889rem;
+  margin: 0 auto;
+  background: #FFF;
+}
+
+section .list-wrap .items .box ul li .info {
+  margin-top: 0.38889rem;
+  white-space: nowrap;
+  font-size: 0.31944rem;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+section .list-wrap:last-child {
+  height: 100vh;
+}
